@@ -1,0 +1,43 @@
+LIBRARY IEEE;
+USE  IEEE.STD_LOGIC_1164.all;
+
+
+entity hex_driver is
+	port(
+	signal win : in std_logic;
+	signal 7seg_0 : out std_logic_vector(6 downto 0);
+	signal 7seg_1 : out std_logic_vector(6 downto 0);
+	signal 7seg_2 : out std_logic_vector(6 downto 0);
+	signal 7seg_3 : out std_logic_vector(6 downto 0);
+	signal 7seg_4 : out std_logic_vector(6 downto 0);
+	signal 7seg_5 : out std_logic_vector(6 downto 0);
+	signal 7seg_6 : out std_logic_vector(6 downto 0);
+	signal 7seg_7 : out std_logic_vector(6 downto 0)
+	);
+end hex_driver;
+
+architecture a of hex_driver is
+begin
+	process(win)
+	begin
+		if(win = '1') then
+			7seg_0 <= "0101011";
+			7seg_1 <= "1111011";
+			7seg_2 <= "1100001";
+			7seg_3 <= "1000011";
+			7seg_4 <= "1111111";
+			7seg_5 <= "1100011";
+			7seg_6 <= "0100011";
+			7seg_7 <= "0010001";
+		else
+			7seg_0 <= "1111111";
+			7seg_1 <= "1111111";
+			7seg_2 <= "1111111";
+			7seg_3 <= "1111111";
+			7seg_4 <= "1111111";
+			7seg_5 <= "1111111";
+			7seg_6 <= "1111111";
+			7seg_7 <= "1111111";
+		end if;
+	end process;
+end a;
