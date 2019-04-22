@@ -1,5 +1,5 @@
 Flow report for DuckHuntTop
-Thu Apr 18 16:16:38 2019
+Mon Apr 22 12:33:27 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Apr 18 16:16:34 2019           ;
+; Flow Status                        ; Successful - Mon Apr 22 12:33:23 2019           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; DuckHuntTop                                     ;
 ; Top-level Entity Name              ; DuckHuntTop                                     ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/18/2019 16:16:14 ;
+; Start date & time ; 04/22/2019 12:33:02 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DuckHuntTop         ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 17727279879346.155561497308316        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 250763203223513.155595798205496       ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; 16764057                              ; --            ; --          ; Top        ;
@@ -92,11 +92,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4654 MB             ; 00:00:02                           ;
-; Fitter                    ; 00:00:11     ; 1.0                     ; 4897 MB             ; 00:00:10                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4655 MB             ; 00:00:03                           ;
+; Fitter                    ; 00:00:12     ; 1.0                     ; 4897 MB             ; 00:00:10                           ;
 ; Assembler                 ; 00:00:04     ; 1.0                     ; 4583 MB             ; 00:00:03                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4571 MB             ; 00:00:02                           ;
-; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:17                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4571 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:22     ; --                      ; --                  ; 00:00:17                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

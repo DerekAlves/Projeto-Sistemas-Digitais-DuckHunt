@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 88 224 104)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KEY[0]" (rect 5 0 41 12)(font "Arial" ))
+	(text "KEY[0]" (rect 5 0 40 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -40,7 +40,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 136 224 152)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLOCK50" (rect 5 0 55 12)(font "Arial" ))
+	(text "CLOCK50" (rect 5 0 54 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,9 +55,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 56 216 224 232)
+	(rect 56 200 224 216)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "SW17" (rect 5 0 35 12)(font "Arial" ))
+	(text "SW17" (rect 5 0 34 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -68,13 +68,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 0 232 56 248))
+	(annotation_block (location)(rect 0 216 56 232))
 )
 (pin
 	(input)
 	(rect 56 56 224 72)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "SW[15..0]" (rect 5 0 55 12)(font "Arial" ))
+	(text "SW[15..0]" (rect 5 0 54 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -89,7 +89,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1040 48 1216 64)
+	(rect 1080 48 1256 64)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "LEDS[15..0]" (rect 90 0 150 12)(font "Arial" ))
 	(pt 0 8)
@@ -102,7 +102,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1216 64 1280 80))
+	(annotation_block (location)(rect 1256 64 1320 80))
 )
 (pin
 	(output)
@@ -439,10 +439,6 @@ applicable agreement for further details.
 	(pt 848 128)
 )
 (connector
-	(pt 568 176)
-	(pt 512 176)
-)
-(connector
 	(pt 512 112)
 	(pt 568 112)
 	(bus)
@@ -451,10 +447,6 @@ applicable agreement for further details.
 	(pt 784 112)
 	(pt 816 112)
 	(bus)
-)
-(connector
-	(pt 512 176)
-	(pt 512 224)
 )
 (connector
 	(pt 568 128)
@@ -505,16 +497,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 816 112)
-	(pt 816 56)
-	(bus)
-)
-(connector
-	(pt 816 56)
-	(pt 1040 56)
-	(bus)
-)
-(connector
 	(pt 224 96)
 	(pt 240 96)
 )
@@ -533,6 +515,24 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 224 224)
-	(pt 512 224)
+	(pt 568 176)
+	(pt 496 176)
+)
+(connector
+	(pt 496 176)
+	(pt 496 208)
+)
+(connector
+	(pt 224 208)
+	(pt 496 208)
+)
+(connector
+	(pt 816 112)
+	(pt 816 56)
+	(bus)
+)
+(connector
+	(pt 816 56)
+	(pt 1080 56)
+	(bus)
 )
