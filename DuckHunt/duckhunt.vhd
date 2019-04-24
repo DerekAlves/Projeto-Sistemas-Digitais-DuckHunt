@@ -48,7 +48,7 @@ begin
 			end if;
 			old_slide_sws <= slide_sws;
 			
-			if((bits = "0000000000000000")) then-- and ((switches_old xor switches) /= x"0000") and switches = x"0000") then 
+			if((bits = "0000000000000000")) then
 				wc_int <= '1';
 			end if;
 			
